@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#271B13"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="159dp"
+            app:srcCompat="@drawable/copilot_20261027_174201" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:gravity="center"
+            android:text="12 Modern Web Design Trends for 2025"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" Web design continues to evolve rapidly,\n blending creativity with technology to deliver engaging digital experiences.\n As we move into 2025, designers and developers are focusing on innovation, accessibility, and user‑centered design.\n Here are twelve key trends shaping the future of web design:  \n \n 1. Minimalist Interfaces  \n Clean layouts with plenty of white space help users focus on essential content without distractions. \n \n   2. Dark Mode Optimization  \n Dark mode is no longer optional—it’s becoming a standard feature for improved readability and aesthetics. \n \n  3. AI‑Driven Personalization  \n Websites are increasingly using artificial intelligence to adapt content and layouts to individual user preferences. \n \n 4. Immersive 3D Elements   \n Interactive 3D graphics and animations create dynamic, futuristic experiences that capture attention.  \n \n 5. Micro‑Interactions \n  Small, subtle animations enhance usability by providing instant feedback to user actions. \n \n  6. Voice User Interfaces (VUIs)  \n Voice commands and search integration are making websites more accessible and intuitive. \n \n  7. Bold Typography \n  Large, expressive fonts are being used to convey personality and brand identity.  \n \n 8. Sustainable Design  \n Eco‑friendly web practices, such as energy‑efficient coding and lightweight assets, are gaining importance. \n \n  9. Augmented Reality (AR) Integration  \n AR features allow users to visualize products or experiences directly through their browsers.  \n \n 10. Advanced Accessibility   \n Inclusive design ensures that websites are usable by people of all abilities, following WCAG standards.  \n \n 11. Dynamic Data Visualization  \n Interactive charts and infographics make complex information easier to understand. \n \n 12. Cybersecurity Awareness  \n Designers are embedding trust signals, secure UI patterns, and transparent privacy practices into websites.   \n \n  Conclusion  \n The future of web design is about creating smarter, faster, and more human‑centered experiences. By embracing these trends, developers and designers can build websites that not only look modern but also deliver meaningful value to users."
+                    android:textColor="@color/white" />
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
